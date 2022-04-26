@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyperclip
 Version  : 1.8.2
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz
 Summary  : A cross-platform clipboard module for Python. (Only handles plain text for now.)
@@ -14,9 +14,6 @@ Requires: pypi-pyperclip-license = %{version}-%{release}
 Requires: pypi-pyperclip-python = %{version}-%{release}
 Requires: pypi-pyperclip-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pyperclip
-Provides: pyperclip-python
-Provides: pyperclip-python3
 
 %description
 Pyperclip is a cross-platform Python module for copy and paste clipboard functions. It works with Python 2 and 3.
@@ -57,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641477454
+export SOURCE_DATE_EPOCH=1651016019
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
